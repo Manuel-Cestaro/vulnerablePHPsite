@@ -16,7 +16,8 @@ I used Burp Suite to intercept the upload of the file in order to alter this hea
 - access via **Burp Suite browser** to the host address;
 - log in with your credentials and upload the attacking file;
 - intercept the sending of the request on Burp Suite and change the string 
-`Content-Type: application/octet-stream` to `Content-Type: image/png`;
+
+s`Content-Type: application/octet-stream` to `Content-Type: image/png`;
 - repeat the operation with other php files or access the open shell with the `attack.php` file.
 
 ## Conclusions
